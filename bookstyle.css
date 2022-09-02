@@ -17,7 +17,44 @@ body {
         "nav nav nav"
         "main main side"
         "footer footer footer";
+    grid-gap: 4px;
 }
 
 
 /* Grid Setup Ends */
+
+
+/*  Area Styling  */
+
+.box{
+    border: solid 1px #000;
+    padding: 20px;
+    background-color: #ddd;
+}
+
+.logo{
+    grid-area: logo;
+}
+
+.banner{
+    grid-area:banner;
+}
+
+.nav{
+    grid-area:nav;
+}
+
+.main{
+    grid-area:main;
+}
+
+.side{
+    grid-area:side;
+}
+
+.footer{
+    grid-area:footer;
+}
+
+
+/* End of Area Styling */  
